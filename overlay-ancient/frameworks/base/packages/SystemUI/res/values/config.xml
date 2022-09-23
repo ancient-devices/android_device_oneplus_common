@@ -12,7 +12,7 @@
             0 - GLOBAL HBM
             1 - LOCAL HBM
     -->
-    <integer name="config_udfps_hbm_type">0</integer>    
+    <integer name="config_udfps_hbm_type">0</integer>
 
     <!-- Icons that don't show in a collapsed non-keyguard statusbar -->
      <string-array name="config_collapsed_statusbar_icon_blocklist" translatable="false">
@@ -27,5 +27,8 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
+    <integer name="config_keyguardMaxRefreshRate">60</integer>
 
 </resources>
